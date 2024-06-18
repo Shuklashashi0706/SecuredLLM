@@ -5,7 +5,7 @@ import streamlit as st
 def main():
     st.set_page_config(page_title="Chat PDF")
     
-    st.header("SecuredGPT🔐")
+    st.header("CyBot🔐")
 
     user_question = st.text_input("Ask your question:")
 

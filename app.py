@@ -12,7 +12,7 @@ def main():
     if st.button("Enter"):
         with st.spinner("Processing..."):
             try:
-                url = "https://ldjao8swv3.execute-api.ap-south-1.amazonaws.com/dev/blog-generation"
+                url = "https://g0a7owpgj0.execute-api.us-east-1.amazonaws.com/dev/blog"
                 payload = {
                     "blog_topic": user_question
                 }
